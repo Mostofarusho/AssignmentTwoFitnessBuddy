@@ -9,4 +9,35 @@
         justify-content: space-between;
         padding: 0 20px;
     }
+    /* Get Body  */
+    .get-body {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+        padding: 0px;
+    }
+    .get-body-details {
+        width: 100%;
+        text-align: center;
+        gap: 10px;
+        margin: 0 auto;
+        order: 2;
+    }
+    .get-body-buttons {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+    }
+    .get-body-image-container {
+        width: 100%;
+        order: 1;
+    }
+    .get-body-image {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .free-workout-videos {
+        top: 100px;
+        left: 170px;
+    }
 }
