@@ -1,0 +1,12 @@
+@media screen and (max-width:767px) {
+    .nav-list {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .nav-section {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
