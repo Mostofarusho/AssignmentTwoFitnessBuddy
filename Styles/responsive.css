@@ -10,7 +10,7 @@
         padding: 0 20px;
     }
     /* Get Body  */
-    .get-body {
+    .get-body-section {
         flex-direction: column;
         margin-top: 40px;
         gap: 15px;
@@ -39,5 +39,48 @@
     .free-workout-videos {
         top: 100px;
         left: 170px;
+    }
+    /* Change Habit Type  */
+    .change-habit-type {
+        max-width: 90%;
+    }
+    .change-habit-types-container {
+        gap: 20px;
+    }
+    .change-habit-title {
+        font-size: 2rem;
+    }
+    .change-habit-description {
+        font-size: 0.95rem;
+    }
+    .change-habit-section {
+        max-width: 1250px;
+        margin: 80px auto;
+        padding: 0 20px;
+    }
+    /* Run Easily Section  */
+    .btn-primary {
+        align-self: center;
+    }
+    .run-easily-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 15px;
+        padding: 0px;
+    }
+    .run-easily-details {
+        width: 90%;
+        order: 2;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .run-easily-image-container {
+        width: 90%;
+        order: 1;
+        margin: 0 auto;
     }
 }

@@ -1,208 +1,328 @@
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    h1,
-    p,
-    div {
-        padding: 0;
-        margin: 0;
-    }
-    
-    body {
-        /* font-family: "Dancing Script", cursive; */
-        font-family: "Inter", sans-serif;
-        background: rgb(0, 0, 0);
-        /* background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%); */
-    }
-    
-    .btn-primary {
-        border-radius: 42px;
-        background: rgb(230, 83, 60);
-        padding: 16px 40px 16px 40px;
-        color: rgb(255, 255, 255);
-        font-size: 1.25rem;
-        font-weight: 600;
-    }
-    
-    .btn-download {
-        box-sizing: border-box;
-        border: 1px solid rgb(255, 255, 255);
-        background: black;
-        border-radius: 42px;
-        padding: 16px 40px 16px 40px;
-        color: rgb(255, 255, 255);
-        font-size: 1.25rem;
-        font-weight: 600;
-    }
-    /* Nav Section Styles  */
-    
-    .header {
-        background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    }
-    
-    .nav-section {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
-    
-    .nav-title {
-        color: rgb(230, 83, 60);
-        font-size: 2.25rem;
-        font-weight: 800;
-    }
-    
-    .nav-list {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        gap: 40px;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        /* border: 2px solid red; */
-        border-radius: 40px;
-        padding: 5px;
-    }
-    
-    .nav-list a {
-        text-decoration: none;
-        color: white;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    #home {
-        border-radius: 46px;
-        background: rgb(230, 83, 60);
-        padding: 10px 20px;
-    }
-    
-    .hamburger {
-        display: none;
-        color: white;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-    /* Get Body Section  */
-    
-    .get-body {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
-        gap: 40px;
-        padding: 40px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .get-body-details {
-        width: 45%;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        text-align: left;
-        gap: 20px;
-        padding: 10px;
-    }
-    
-    .get-body-title {
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 5rem;
-        font-weight: 900;
-    }
-    
-    #shape {
-        font-family: "Dancing Script", cursive;
-    }
-    
-    .get-body-description {
-        color: rgba(255, 255, 255, 0.5);
-        font-family: Inter;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    .get-body-buttons {
-        display: flex;
-        gap: 10px;
-    }
-    
-    .get-body-image-container {
-        width: 45%;
-        position: relative;
-        margin: 0;
-    }
-    
-    .get-body-image {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
-    
-    .free-workout-videos {
-        width: 200px;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.1);
-        top: 200px;
-        left: 370px;
-    }
-    
-    #five_hundred {
-        color: rgb(255, 255, 255);
-        font-size: 2.5rem;
-        font-weight: 900;
-    }
-    
-    #Free_Workout_Videos {
-        color: rgba(255, 255, 255, 0.65);
-        font-family: Inter;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    
-    #circle {
-        width: 30px;
-        height: 30px;
-        color: red;
-        background-color: red;
-        border-radius: 50%;
-    }
-    
-    .video-tutorial {
-        width: 200px;
-        height: 100px;
-        display: flex;
-        /* flex-direction: column; */
-        /* justify-content: center; */
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-        padding: 10px;
-        position: absolute;
-        box-sizing: border-box;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 12px;
-        backdrop-filter: blur(20px);
-        background: rgba(255, 255, 255, 0.1);
-        bottom: 50px;
-        left: 10px
-    }
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        h1,
+        p,
+        div {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            /* font-family: "Dancing Script", cursive; */
+            font-family: "Inter", sans-serif;
+            background: #111111;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(180deg, #111111, rgba(119, 119, 119, 0) 100%);
+        }
+        
+        .btn-primary {
+            border-radius: 42px;
+            background: rgb(230, 83, 60);
+            padding: 16px 40px 16px 40px;
+            color: rgb(255, 255, 255);
+            font-size: 1.25rem;
+            font-weight: 600;
+            width: fit-content;
+            align-self: flex-start;
+        }
+        
+        .btn-download {
+            box-sizing: border-box;
+            border: 1px solid rgb(255, 255, 255);
+            background: black;
+            border-radius: 42px;
+            padding: 16px 40px 16px 40px;
+            color: rgb(255, 255, 255);
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        /* Nav Section Styles  */
+        
+        .nav-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .nav-title {
+            color: rgb(230, 83, 60);
+            font-size: 2.25rem;
+            font-weight: 800;
+        }
+        
+        .nav-list {
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            gap: 40px;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            /* border: 2px solid red; */
+            border-radius: 40px;
+            padding: 5px;
+        }
+        
+        .nav-list a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        #home {
+            border-radius: 46px;
+            background: rgb(230, 83, 60);
+            padding: 10px 20px;
+        }
+        
+        .hamburger {
+            display: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        /* Get Body Section  */
+        
+        .get-body-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 40px;
+            padding: 40px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .get-body-details {
+            width: 45%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: left;
+            gap: 20px;
+            padding: 10px;
+        }
+        
+        .get-body-title {
+            color: rgb(255, 255, 255);
+            font-family: Inter;
+            font-size: 5rem;
+            font-weight: 900;
+        }
+        
+        #shape {
+            font-family: "Dancing Script", cursive;
+        }
+        
+        .get-body-description {
+            color: rgba(255, 255, 255, 0.5);
+            font-family: Inter;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .get-body-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .get-body-image-container {
+            width: 45%;
+            position: relative;
+            margin: 0;
+        }
+        
+        .get-body-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        .free-workout-videos {
+            width: 200px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.1);
+            top: 200px;
+            left: 370px;
+        }
+        
+        #five_hundred {
+            color: rgb(255, 255, 255);
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+        
+        #Free_Workout_Videos {
+            color: rgba(255, 255, 255, 0.65);
+            font-family: Inter;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        #circle {
+            width: 30px;
+            height: 30px;
+            color: red;
+            background-color: red;
+            border-radius: 50%;
+        }
+        
+        .video-tutorial {
+            width: 200px;
+            height: 100px;
+            display: flex;
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+            padding: 10px;
+            position: absolute;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.1);
+            bottom: 50px;
+            left: 10px
+        }
+        /* Change Habit Section */
+        
+        .change-habit-details {
+            text-align: center;
+        }
+        
+        .change-habit-title {
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        
+        .change-habit-description {
+            color: rgba(255, 255, 255, 0.5);
+            font-family: Inter;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .change-habit-type-title {
+            color: rgb(255, 255, 255);
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        
+        .change-habit-type-description {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .change-habit-type-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        .change-habit-section {
+            max-width: 1250px;
+            margin: 20px auto;
+        }
+        
+        .change-habit-types-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 80px 0px;
+        }
+        
+        .change-habit-type {
+            margin-top: 20px;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            gap: 10px;
+        }
+        
+        .change-habit-type:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+        }
+        /* Run Easily Section */
+        
+        .run-easily-title {
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        
+        .run-easily-description {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .run-easily-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 20px;
+        }
+        
+        .run-easily-section {
+            max-width: 1100px;
+            border-radius: 20px;
+            background: rgb(34, 34, 34);
+            padding: 20px;
+            margin: 20px auto;
+        }
+        
+        .run-easily-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            margin: 80px 0px;
+        }
+        
+        .run-easily-details {
+            max-width: 500px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .run-easily-image-container {
+            max-width: 500px;
+        }
