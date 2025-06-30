@@ -693,6 +693,12 @@ td {
     font-weight: 700;
 }
 
+.third-part-of-footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 li {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
@@ -703,7 +709,8 @@ li {
 }
 
 .first-part-of-footer,
-.second-part-of-footer {
+.second-part-of-footer,
+.third-part-of-footer {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -720,7 +727,8 @@ li {
     align-items: start;
 }
 
-.second-part-of-footer ul {
+.second-part-of-footer ul,
+.third-part-of-footer ul {
     padding: 0;
     margin: 0;
 }
