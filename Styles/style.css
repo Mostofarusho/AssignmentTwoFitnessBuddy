@@ -453,3 +453,145 @@ body {
     padding: 20px;
     margin: 20px auto;
 }
+
+
+/* BMI Calculator Section */
+
+.bmi-calculator-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bmi-calculator-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .95rem;
+    font-weight: 400;
+}
+
+.bmi-calculator-details {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bmi-calculator-table-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.bmi-table {
+    border-collapse: collapse;
+    /* color: rgb(255, 255, 255); */
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .95rem;
+    font-weight: 400;
+}
+
+.bmi-calculator-container {
+    background: rgb(34, 34, 34);
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+}
+
+.bmi-calculator-table {
+    /* border: 2px solid black; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.bmi-calculator-chart {
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 40px;
+}
+
+.bmi-calculator-chart-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.bmi-calculator-chart-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bmi-calculator-chart-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.bmi-calculator-chart-input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.bmi-input-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi-input-form input,
+.bmi-input-form select {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 12px 20px;
+    height: 50px;
+    border: none;
+    flex: 1 1 calc(50% - 10px);
+    /* Two per row with space */
+    min-width: 200px;
+}
+
+.bmi-input-form option {
+    background-color: rgba(34, 34, 34, 1);
+    /* or match your section bg */
+    color: white;
+}
+
+#activity {
+    flex: 1 1 100%;
+}
