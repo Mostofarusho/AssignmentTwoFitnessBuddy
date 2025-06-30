@@ -139,4 +139,46 @@
         grid-column: auto;
         grid-row: auto;
     }
+    /* BMI Calculator Section */
+    .bmi-calculator-title {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .bmi-calculator-description {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: .95rem;
+        font-weight: 400;
+    }
+    .bmi-calculator-container {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+    .bmi-calculator-table,
+    .bmi-calculator-chart {
+        width: 100%;
+        padding: 0;
+    }
+    .bmi-calculator-chart-details {
+        align-items: center;
+        text-align: center;
+    }
+    .bmi-input-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .bmi-input-form input,
+    .bmi-input-form select {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    #activity {
+        flex: 1 1 100%;
+    }
+    .btn-primary {
+        align-self: center;
+        margin-top: 10px;
+        width: fit-content;
+    }
 }
