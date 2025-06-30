@@ -18,6 +18,10 @@ body {
     background: #111111;
 }
 
+section {
+    margin: 40px 0px;
+}
+
 .gradient-bg {
     background: linear-gradient(180deg, #111111, rgba(119, 119, 119, 0) 100%);
 }
@@ -598,3 +602,150 @@ td {
 
 
 /* Meet Our Team Section Styles */
+
+.meet-our-team-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.meet-our-team-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.meet-our-team-details {
+    text-align: center;
+}
+
+.trainer-name {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.trainer-position {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.meet-our-team-image {
+    position: relative;
+    margin: 0 auto;
+    max-width: 300px;
+    height: 400px;
+    /* add fixed height */
+    overflow: hidden;
+    /* prevents overflow */
+    border-radius: 20px;
+}
+
+.trainer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* better fit than 'contain' */
+    border-radius: 20px;
+}
+
+.trainer-details {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    /* optional: background for readability */
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.meet-our-team-image-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+
+/* Footer Section */
+
+.first-part-of-footer-title {
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.first-part-of-footer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.second-part-of-footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+li {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    list-style: none;
+    padding: 10px;
+}
+
+.first-part-of-footer,
+.second-part-of-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    gap: 40px;
+    justify-items: center;
+    align-items: start;
+}
+
+.second-part-of-footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    padding: 8px 0;
+    line-height: 1.6;
+}
+
+.line {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 80px 0px;
+}
